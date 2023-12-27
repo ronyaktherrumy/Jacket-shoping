@@ -1,0 +1,198 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Lato', sans-serif;
+
+ }
+
+ .heading {
+     background-color: rgb(255, 245, 232);
+     height: 90vh;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 150px;
+     margin-bottom: 50px;
+ }
+
+
+ .logo-pic {
+     width: 300px;
+ }
+
+ .navi {
+     display: flex;
+     justify-content: space-between;
+     height: 80px;
+     align-items: center;
+     max-width: 1200px;
+     margin: 0 auto;
+     position: static;
+ }
+
+ .nav-li {
+     list-style: none;
+     display: flex;
+     justify-content: space-around;
+     width: 400px;
+ }
+
+ .nav-li a {
+     color: rgb(10, 10, 10);
+     font-size: large;
+     text-decoration: none;
+ }
+
+ .primary-btn {
+     background-color: rgb(144, 194, 58);
+     margin: 15px auto 25px;
+     border-radius: 7px;
+     border: none;
+     padding: 15px 28px;
+     color: white;
+     cursor: pointer;
+     font-size: medium;
+ }
+
+ .head-titel {
+     font-size: 50px;
+     margin-bottom: 15px;
+ }
+
+ .head-right {
+     height: 500px;
+     width: 400px;
+ }
+
+ /* main section start hear  */
+ .parent-jac {
+     display: flex;
+     margin: 70px auto 60px;
+     justify-content: space-evenly;
+
+ }
+
+ .jackets {
+     height: 500px;
+     width: 400px;
+     background-color: rgb(252, 251, 249);
+     border-radius: 20px;
+     box-shadow: 6px 5px gray;
+     /* padding-left: 30px; */
+     text-align: center;
+ }
+
+ .women-titel {
+     color: rgb(54, 50, 83);
+     margin-left: 200px;
+     font-size: 50px;
+ }
+
+ .women-jac {
+     height: 300px;
+     width: 300px;
+     background-color: rgb(230, 226, 222);
+     padding: 20px;
+     border-radius: 20px;
+     margin: 10px auto 15px;
+ }
+
+ .inline {
+     display: flex;
+     align-items: center;
+     padding-left: 30px;
+     justify-content: space-evenly;
+     margin-bottom: 20px;
+     font-size: x-large;
+ }
+
+ /* men section end  */
+
+
+ .main-section {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .left {
+     display: flex;
+     justify-content: space-around;
+ }
+
+
+ .main-right {
+     width: 100%;
+     height: 600px;
+ }
+
+
+ /* media querry */
+ @media screen and (max-width:400px) {
+     .navi {
+         flex-direction: column;
+         height: 170px;
+         background-color: rgb(242, 253, 249);
+         text-align: center;
+         margin-bottom: 20px;
+     }
+
+     .logo-pic {
+         margin-top: 20px;
+     }
+
+     .nav-li {
+         flex-direction: column;
+         margin-bottom: 30px;
+     }
+
+     /* heading  */
+     .heading {
+         flex-direction: column;
+         padding: 50px;
+         width: 100%;
+         /* text-align: center; */
+         margin-top: 40px;
+     }
+
+
+     .head-titel {
+         font-size: 30px;
+         margin-top: 35px;
+     }
+
+
+     .head-pic {
+         height: 400px;
+         width: 100%
+     }
+
+     /* women jac section  */
+     .women-titel {
+         margin-left: 25px;
+         font-size: 40px;
+     }
+
+     .parent-jac {
+         flex-direction: column;
+         margin-top: 30px auto 30px;
+         align-items: center;
+     }
+
+     .jackets {
+         height: 500px;
+         width: 350px;
+         margin-bottom: 30px;
+
+     }
+
+     /* .inline {
+         align-items: center; 
+    } */
+ }
