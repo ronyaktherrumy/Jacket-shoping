@@ -71,14 +71,17 @@
 
  /* main section start hear  */
  .parent-jac {
-     display: flex;
+     /* display: flex;
      margin: 70px auto 60px;
-     justify-content: space-evenly;
+     justify-content: space-evenly; */
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between
  }
 
  .jackets {
      height: 500px;
-     width: 400px;
+     width: calc(33.33% - 10px);
      background-color: rgb(252, 251, 249);
      border-radius: 20px;
      box-shadow: 6px 5px gray;
@@ -167,7 +170,7 @@
  }
 
  /* media querry */
- @media screen and (max-width:500px) {
+ @media screen and (max-width:767px) {
      .navi {
          flex-direction: column;
          height: 170px;
@@ -213,14 +216,18 @@
      }
 
      .parent-jac {
-         flex-direction: column;
+         /* flex-direction: column;
          margin-top: 30px auto 30px;
-         align-items: center;
+         align-items: center; */
+
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
      }
 
      .jackets {
          height: 500px;
-         width: 350px;
+         width: 100%;
          margin-bottom: 30px;
 
      }
@@ -255,8 +262,9 @@
      }
  }
 
+ @media screen and (min-width: 768px) and (max-width: 991px) {
 
-
-
-
- 
+     .jackets {
+         width: calc(50% - 10px);
+     }
+ }
