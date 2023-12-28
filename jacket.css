@@ -63,6 +63,7 @@
      font-size: 50px;
      margin-bottom: 15px;
  }
+
  .head-pic {
      height: 500px;
      width: 500px;
@@ -155,8 +156,9 @@
      text-align: center;
      margin-top: 50px;
  }
- p{
-    margin-top: 20px;
+
+ p {
+     margin-top: 20px;
  }
 
  .fa-brands {
@@ -165,7 +167,7 @@
  }
 
  /* media querry */
- @media screen and (max-width:400px) {
+ @media screen and (max-width:500px) {
      .navi {
          flex-direction: column;
          height: 170px;
@@ -242,13 +244,19 @@
      /* footer  */
 
      .foot {
-        height: 50vh;    
-        text-align: center;
-        margin-top: 30px;
-    }
+         height: 50vh;
+         text-align: center;
+         margin-top: 30px;
+     }
 
-    .fa-brands {
-        font-size: 40px;
-        margin: 200px 30px 0px 30px;
-    }
+     .fa-brands {
+         font-size: 40px;
+         margin: 200px 30px 0px 30px;
+     }
  }
+
+
+
+
+
+ 
